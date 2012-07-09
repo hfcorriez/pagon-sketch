@@ -1,0 +1,6 @@
+[submodule "vendor/omniapp"]
+	path = vendor/omniapp
+	url = git@github.com:hfcorriez/omniapp.git
+[submodule "vendor/Twig"]
+	path = vendor/Twig
+	url = git://github.com/fabpot/Twig.git
