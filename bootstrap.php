@@ -1,6 +1,6 @@
 <?php
 
-require __DIR__ . '/vendor/omniapp/omniapp/framework.php';
+require __DIR__ . '/vendor/OmniApp/src/OmniApp/App.php';
 
 define('APPPATH', __DIR__);
 
