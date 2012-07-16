@@ -2,7 +2,7 @@
 
 namespace Example\Controller;
 
-class Cli extends \Controller
+class Cli extends \OmniApp\Controller
 {
     protected $_body;
 

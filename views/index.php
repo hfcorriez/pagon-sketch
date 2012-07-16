@@ -54,7 +54,7 @@
 
 <div id="main">
 
-    <h1><?php echo __('Welcome to OmniApp!'); ?><sub style="font-size: 12px;"> v<?php echo $version; ?></sub></h1>
+    <h1><?php echo 'Welcome to OmniApp!'; ?><sub style="font-size: 12px;"> v<?php echo $version; ?></sub></h1>
     <b>A blazing fast Model View Controller framework</b>
 
     <p>Omniapp is a module-based MVC that is currently in active development.

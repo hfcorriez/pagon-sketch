@@ -2,7 +2,7 @@
 
 namespace Example\Model;
 
-class Test extends \Omni\Orm
+class Test extends \OmniApp\Model
 {
     public $id;
     public $title;

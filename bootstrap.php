@@ -2,6 +2,8 @@
 
 require __DIR__ . '/vendor/OmniApp/src/OmniApp/App.php';
 
+use OmniApp\App, OmniApp\Route, OmniApp\Log;
+
 define('APPPATH', __DIR__);
 
 App::init(include('config/config.php'));
@@ -19,7 +21,8 @@ Route::on('serverinfo', function()
     Log::debug(var_export($_SERVER, true));
 });
 
-Route::on('twig', function(){
+Route::on('twig', function()
+{
     Twig_Autoloader::register();
     $loader = new Twig_Loader_String();
     $twig = new Twig_Environment($loader);

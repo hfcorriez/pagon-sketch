@@ -2,18 +2,18 @@
 
 namespace Example\Controller;
 
-class Front extends \Controller
+class Front extends \OmniApp\Controller
 {
     /**
-     * @var \View
+     * @var \OmniApp\View
      */
     protected $_body;
     /**
-     * @var \Request
+     * @var \OmniApp\Request
      */
     protected $_request;
     /**
-     * @var \Response
+     * @var \OmniApp\Response
      */
     protected $_response;
 

@@ -17,7 +17,7 @@ $config['route'] = array(
     'debug' => function()
     {
         var_dump(func_get_args());
-        var_dump(__('ddd'));
+        var_dump('dd');
     },
 );
 
@@ -43,7 +43,7 @@ $config['event'] = array(
 );
 
 $config['log'] = array(
-    'level' => Log::LEVEL_DEBUG,
+    'level' => \OmniApp\Log::LEVEL_DEBUG,
     'dir'   => APPPATH . '/logs',
 );
 
